@@ -1,0 +1,44 @@
+.rodape-pagina {
+    background-color: #000;
+    color: #9d9d9d;;
+    padding: 20px;
+    clear: both;
+    /*position: fixed;*/
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(../imagens/eu-ico-small.png);
+    background-position: 99% center;
+    background-repeat: no-repeat;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.fa-2x {
+    font-size: 2em;
+}
+.fa-facebook:before {
+    content: "\f09a";
+}
+.social-links li a {
+    color: rgba(255, 255, 255, 0.3);
+    display: block;
+    margin: 0 1em;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#img1 {
+    width: 22%;
+    margin-right: 4px;
+}
